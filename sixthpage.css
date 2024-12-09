@@ -1,0 +1,37 @@
+.rollercoaster{
+    max-width: 2300px; 
+    height: auto;
+}
+.rollercoaster{
+    position: absolute;
+    z-index: 1;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.orangebutton{
+    z-index: 2;
+    position: absolute;
+    top: 610px;
+    left: 1050px;
+}
+.orangebutton{
+    width: 250px;
+    height: auto;
+}
+.nightmarebutton{
+    z-index: 2;
+    position: absolute;
+    top: 610px;
+    left: 1250px;
+    width: 250px;
+    height: auto;
+}
+.backsixth{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    z-index: 2;
+}

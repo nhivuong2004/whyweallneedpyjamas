@@ -1,0 +1,35 @@
+.sleep {
+    max-width: 1600px;
+    height: auto;
+}
+.sleep{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+.buttontwo{
+    position: relative;
+    z-index: 2; 
+    width: 600px;
+    height: 600px;
+    left: 900px;
+    top: 100px;
+}
+.dreambutton{
+    position: relative;
+    z-index: 2; 
+    width: 600px;
+    height: 600px;
+    right: 600px;
+    top: 120px;
+}
+.mask{
+    width: 170px;
+    height: auto;
+    position: absolute;
+    bottom: -20px;
+    left: 25px;
+    z-index: 2;
+}

@@ -1,0 +1,46 @@
+.livingroom{
+    max-width: 1400px; 
+    height: auto;
+}
+.livingroom{
+    position: absolute;
+    z-index: 1;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.lamp{
+    position: relative;
+    z-index: 3;  
+    left: 240px;
+    bottom: -145px;
+    }     
+.lamp {
+        width: 180px;
+        height: 350px;
+        transition: transform 0.3s ease-in-out;
+     }
+.lamp:hover {
+     width: 230px;
+     height: 400px;
+    }
+.lamp {
+    pointer-events: auto; 
+    display: flex;
+    gap: 80px;
+    overflow: hidden;
+} 
+.spotify {
+    position: absolute;
+    z-index: 3;
+    right: 120px;
+    top: 150px
+}
+.cat{
+    z-index: 2;
+    position: relative;
+    bottom: 330px;
+    left: 35px;
+    width: 95%;
+    height: 95%;
+}

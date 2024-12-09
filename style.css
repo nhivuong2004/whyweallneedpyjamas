@@ -1,0 +1,13 @@
+img {
+    max-width: 100vw; 
+    height: auto;
+    }
+    .curtain {
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .teacup {
+        position: absolute;
+        z-index: 2;  
+    }
